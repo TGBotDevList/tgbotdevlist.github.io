@@ -96,21 +96,12 @@ author:
   name             : "CallMeStag"
   avatar           : "/assets/HirschHeissIch_Icon.png"
   bio              : "Initiator of TG Bot Dev List."
-#  location         : "Somewhere"
+  location         : "Earth"
   email            :
   links:
-#    - label: "Email"
-#      icon: "fas fa-fw fa-envelope-square"
-#       url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://hirschheissi.ch"
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      # url: "https://twitter.com/"
-#    - label: "Facebook"
-#      icon: "fab fa-fw fa-facebook-square"
-#      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Bibo-Joshi"
@@ -120,31 +111,13 @@ author:
     - label: "StackExchange"
       icon: "fab fa-fw fa-stack-exchange"
       url: "https://stackexchange.com/users/14687358/callmestag"
-#    - label: "Instagram"
-#      icon: "fab fa-fw fa-instagram"
-#      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/TGBotDevList/tgbotdevlist.github.io"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
     - label: "Telegram"
       icon: "fab fa-fw fa-telegram-plane"
       url: "https://t.me/TGBotDevList"

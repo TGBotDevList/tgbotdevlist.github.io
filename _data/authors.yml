@@ -1,0 +1,17 @@
+john_does_gh_username:
+  name        : "John Doe"
+  bio         : "Short Bio."
+#  avatar      : "/assets/profile_pictures/john_does_gh_username.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:john@doe.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://tgdevbotlist.github.ic"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tgdevbotlist/tgdevbotlist.github.io"
+    - label: "Some Other Social Link"
+      icon: "fas fa-comment"
+      url: "https://github.com/tgdevbotlist/tgdevbotlist.github.io"
