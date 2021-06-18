@@ -8,10 +8,29 @@ john_does_gh_username:
       url: "mailto:john@doe.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://tgdevbotlist.github.ic"
+      url: "https://tgdevbotlist.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tgdevbotlist/tgdevbotlist.github.io"
     - label: "Some Other Social Link"
       icon: "fas fa-comment"
       url: "https://github.com/tgdevbotlist/tgdevbotlist.github.io"
+  bot_types:
+    - bot: true
+    - userbot: false
+  languages:
+    - name: "Python"
+      icon: "fab fa-python"
+      packages:
+        - name: "python-telegram-bot"
+          url: "https://python-telegram-bot.org"
+    - name: "Rust"
+  references:
+    - name: "TwitterStatusBot"
+      type: "bot"
+      telegram: "TwitterStatusBot"
+    - name: "SomeUserBot"
+      type: "userbot"
+      url: "https://core.telegram.org/"
+    - name: "Reference without link"
+      type: "bot"

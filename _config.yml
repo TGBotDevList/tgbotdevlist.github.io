@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "TG Bot Dev List"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Yet another freelancer-for-hire platform."
 name                     : "TG Bot Dev List"
 description              : "Yet another freelancer-for-hire platform."
 url                      : "https://tgbotdevlist.github.io"
@@ -111,6 +111,27 @@ author:
     - label: "StackExchange"
       icon: "fab fa-fw fa-stack-exchange"
       url: "https://stackexchange.com/users/14687358/callmestag"
+  bot_types:
+    - bot: true
+    - userbot: false
+  languages:
+    - name: "Python"
+      icon: "fab fa-python"
+      packages:
+        - name: "python-telegram-bot"
+          url: "https://python-telegram-bot.org"
+        - name: "python-telegram-bot"
+          url: "https://python-telegram-bot.org"
+    - name: "Rust"
+#      icon:
+  references:
+    - name: "TwitterStatusBot"
+      type: "bot"
+      url: "https://gitlab.com/HirschHeissIch/twitter-status-bot"
+      telegram: "@TwitterStatusBot"
+    - name: "SomeUserBot"
+      type: "userbot"
+      url: "https://gitlab.com/HirschHeissIch/twitter-status-bot"
 
 # Site Footer
 footer:
@@ -224,10 +245,10 @@ whitelist:
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /categories/
+  path: /devs-by-bot-type/
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /devs-by-language/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -255,15 +276,21 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: single
+#      layout: single
       author_profile: true
-      read_time: # true
-      comments: # true
-      share: # true
-      related: # true
+      header:
+          overlay_image: /assets/logo/TGBotDevList_Header.png
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
+#      layout: single
       author_profile: false
+  - scope:
+      path: "devs"
+      type: pages
+    values:
+      layout: dev
+      author_profile: true
+      toc: true
+      toc_sticky: true

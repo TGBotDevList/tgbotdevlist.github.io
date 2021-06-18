@@ -5,3 +5,7 @@ main:
     url: /about/
   - title: "FAQ"
     url: /faq/
+  - title: "Devs by Bot Type"
+    url: /devs-by-bot-type/
+  - title: "Devs by Language"
+    url: /devs-by-language/
