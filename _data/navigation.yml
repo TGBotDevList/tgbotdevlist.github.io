@@ -1,0 +1,7 @@
+main:
+  - title: "General Advice"
+    url: /advice/
+  - title: "About"
+    url: /about/
+  - title: "FAQ"
+    url: /faq/
