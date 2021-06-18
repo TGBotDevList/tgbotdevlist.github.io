@@ -18,13 +18,13 @@ locale                   : "en-US"
 title                    : "TG Bot Dev List"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "@Bibo-Joshi"
+name                     : "TG Bot Dev List"
 description              : "Yet another freelancer-for-hire platform."
 url                      : "https://tgbotdevlist.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "tgbotdevlist/tgbotdevlist.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "assets/logo/TGBotDevList_Transparent.png"
+logo                     : "/assets/logo/TGBotDevList_Icon.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -50,9 +50,9 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+  hide                   : true # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -75,11 +75,11 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/logo/TGBotDevList.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : "Organization" # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
@@ -93,30 +93,36 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "CallMeStag"
+  avatar           : "/assets/HirschHeissIch_Icon.png"
+  bio              : "Initiator of TG Bot Dev List."
+#  location         : "Somewhere"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+#    - label: "Email"
+#      icon: "fas fa-fw fa-envelope-square"
+#       url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://hirschheissi.ch"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      # url: "https://twitter.com/"
+#    - label: "Facebook"
+#      icon: "fab fa-fw fa-facebook-square"
+#      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/Bibo-Joshi"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/HirschHeissIch"
+    - label: "StackExchange"
+      icon: "fab fa-fw fa-stack-exchange"
+      url: "https://stackexchange.com/users/14687358/callmestag"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -129,7 +135,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/TGBotDevList/tgbotdevlist.github.io"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -139,6 +145,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "Telegram"
+      icon: "fab fa-fw fa-telegram-plane"
+      url: "https://t.me/TGBotDevList"
 
 
 # Reading Files
