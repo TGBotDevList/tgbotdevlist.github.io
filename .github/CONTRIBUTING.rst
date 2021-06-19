@@ -1,1 +1,1 @@
-You can find the contribution guide at `here <https://tgbotdevlist.github.io/sign-up/>`_.
+You can find the contribution guide `here <https://tgbotdevlist.github.io/sign-up/>`_.

@@ -1,29 +1,22 @@
 ---
-name: Question
-about: Get help with errors or general questions
-title: "[QUESTION]"
-labels: question
+name: Extend Advice Section
+about: Propose additional info for https://tgbotdevlist.github.io/advice/
+title: ""
+labels: 'documentation'
 assignees: ''
 
 ---
 
 <!--
-Hey there, you have a question? We are happy to answer. Please make sure no similar question was opened already.
+Thanks for reporting an issue!
 
-To make it easier for us to help you, please read this article https://git.io/JURJO and try to follow the template below as closely as possible.
-
-Please mind that there is also a users' Telegram group at https://t.me/pythontelegrambotgroup for questions about the library. Questions asked there might be answered quicker than here. Moreover, GitHub Discussions at https://git.io/JG3rk offer a slightly better format to discuss usage questions.
+Please only use this template to propose additional info for https://tgbotdevlist.github.io/advice/
 -->
 
-### Issue I am facing
-Please describe the issue here in as much detail as possible
+### Please consider adding the following advice:
 
-### Traceback to the issue
-```
-put it here
-```
+...
 
-### Related part of your code
-```python
-put it here
-```
+### This is relevant, because
+
+...
