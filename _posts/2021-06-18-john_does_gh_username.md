@@ -22,6 +22,6 @@ John Doe is mostly interested in bots that have a search functionality via the i
 
 If you have some conditions for commissions that apply generally, list them here. E.g. 
 
-* 25 Schekel/hours
+* 25 Schmeckles/hours
 * Fixed prices for bots with up to 5 commands without 3rd-party integrations
 * Maybe you even have a contract template that you can link here?

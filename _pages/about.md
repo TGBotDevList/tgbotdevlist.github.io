@@ -5,9 +5,9 @@ author_profile: true
 permalink: /about/
 ---
 
-As developer of a Python library that provides a wrapper for the Telegram Bot API, I regularly see requests in the corresponding support group that read more like "Where can I hire someone to code a bot for me?" than "How do I code this myself". That's fine, but just not what the support group of the API wrapper is intended for.a
+As a developer of a Python library that provides a wrapper for the Telegram Bot API, I regularly see requests in its corresponding support group that read more like "Where can I hire someone to code a bot for me?" than "How do I code this myself". That's fine, but just not what the support group of the API wrapper is intended for.
 
-Unfortunately, I'm not aware of any good resource focused on bringing developers and clients together that focuses on Telegram bots. Formerly, there used to be [@devlist](https://t.me/devlist), but it got shout down. So I had that Thanos moment: »Fine, I'll do it myself«.
+Unfortunately, I'm not aware of any good resource focused on bringing developers and clients together that focuses on Telegram bots. Formerly, there used to be [@devlist](https://t.me/devlist), but it got shut down. So I had that Thanos moment: »Fine, I'll do it myself«.
 
 This page started in mid 2021 and we'll have to see how well it will be received.
 

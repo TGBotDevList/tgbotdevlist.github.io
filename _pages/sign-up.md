@@ -8,7 +8,7 @@ You're developing bots or userbots and want to be listed on this page! Sure thin
 
 Obviously that information will then be public and I can't control who reads it. If you don't want that, don't open a pull request.
 
-Let me walk you through it:
+Let me walk you through the requirements for a sucessfull PR:
 
 # Add yourself to [`_data/authors.yml`](https://github.com/TGBotDevList/tgbotdevlist.github.io/blob/main/_data/authors.yml)
 
@@ -19,20 +19,20 @@ You can copy the entry of `john_does_gh_username` and adjust it to your needs. M
 john_does_gh_username:
   name        : "John Doe" # Your real name or an alias
   bio         : "Short Bio."
-  # To add a profile picture, add it as /assets/profile_pictures/your_gh_username or add a link
+  # To add a profile picture, add it as /assets/profile_pictures/your_gh_username.png or add a link
   avatar      : "/assets/profile_pictures/john_does_gh_username.png"
   links:
     # Any relevant social links. The only mandatory one is your GitHub profile.
     - label: "GitHub"
       # fontawesome icons are optional
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/tgdevbotlist/tgdevbotlist.github
+      url: "https://github.com/tgdevbotlist/tgdevbotlist.github.io"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:john@doe.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://tgdevbotlist.github.io".io"
+      url: "https://tgdevbotlist.github.io"
     - label: "Some Other Social Link"
       icon: "fas fa-comment"
       url: "https://github.com/tgdevbotlist/tgdevbotlist.github.io"
@@ -65,13 +65,13 @@ In order for me to be able to verify that your information is legitimate, I make
 1. The pull request must come from the same GitHub account that's used as author slug and linked in the social links
 2. Any social link or references must be directly associated to your GitHub account. That means that e.g. the homepage you linked states that your GitHub account belongs to the owner of that homepage.
 3. If you add a profile picture as file, it must be visible on one of your social accounts at the time of making the pull request. If you add a profile picture as link, the link must point to one of the social accounts linked by you.
-4. The `name` you choose must also be clearly visible on one of your social accounts. Please tell me, where to look for it.
+4. The `name` you choose must also be clearly visible on one of your social accounts. Please tell me where I can find it.
 
 # Add a post for yourself
 
-Make a copy of [`_posts/2021-06-18-john_does_gh_username.md`](https://github.com/TGBotDevList/tgbotdevlist.github.io/blob/main/_posts/2021-06-18-john_does_gh_username.md) in the `_posts` directory and name it properly:
+Make a copy of [`_posts/2021-06-18-john_does_gh_username.md`](https://github.com/TGBotDevList/tgbotdevlist.github.io/blob/main/_posts/2021-06-18-john_does_gh_username.md) in the `_posts` directory and change the filename properly:
 
-* The date should be (roughly) the date of your pull request (also relevant, if you update your information)
+* The date should be (roughly) the date of your pull request (relevant in case you update your information)
 * the rest of the filename must be your GitHub username
 
 Then fill it with info:
@@ -107,7 +107,7 @@ John Doe is mostly interested in bots that have a search functionality via the i
 
 If you have some conditions for commissions that apply generally, list them here. E.g.
 
-* 25 Schekel/hours
+* 25 Schmeckels/hours
 * Fixed prices for bots with up to 5 commands without 3rd-party integrations
 * Maybe you even have a contract template that you can link here?
 ```

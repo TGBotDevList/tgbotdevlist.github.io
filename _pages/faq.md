@@ -18,7 +18,7 @@ No.
 
 # I've contacted a developer and they didn't respond. Are they still active?
 
-I probably don't know. I only take down developer profiles is when their GitHub profile is deleted. In this case, please contact me via the [issue tracker](https://github.com/TGBotDevList/tgbotdevlist.github.io/issues/new/choose) on GitHub.
+I probably don't know. I only take down developer profiles if their GitHub profile is deleted. In this case, please contact me via the [issue tracker](https://github.com/TGBotDevList/tgbotdevlist.github.io/issues/new/choose) on GitHub.
 
 # Can I update my contact info?
 
@@ -26,7 +26,7 @@ Sure. Just open a new pull request.
 
 # Which Jekyll template does this page use?
 
-[Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/)
+[Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/).
 
 # How many Möbius strips can you fit in a three dimensional space?
 
