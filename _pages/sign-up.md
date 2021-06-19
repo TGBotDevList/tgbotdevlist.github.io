@@ -26,7 +26,7 @@ john_does_gh_username:
     - label: "GitHub"
       # fontawesome icons are optional
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/tgdevbotlist/tgdevbotlist.github"
+      url: "https://github.com/tgdevbotlist/tgdevbotlist.github.io"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:john@doe.com"
