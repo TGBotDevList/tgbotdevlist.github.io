@@ -1,0 +1,36 @@
+---
+layout: single
+---
+
+{{ content }}
+
+{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
+
+<h1 id="languages">Languages</h1>
+{% for language in author.languages %}
+    <h3>
+        <i class="{{ language.icon | default: '' }}"></i> <span>{{ language.name }}</span>
+    </h3>
+    {% for package in language.packages %}
+        {% if package.name and package.url %}
+            <li><a href="{{ package.url }}" rel="nofollow noopener noreferrer"><span class="label">{{ package.name }}</span></a></li>
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
+<h1 id="references">References</h1>
+{% for ref in author.references %}
+    {% unless ref.url or ref.telegram %}
+        {% continue %}
+    {% endunless %}
+    <h3>
+        <span>{{ ref.name }} ({{ ref.type | capitalize }})</span>
+    </h3>
+    {% if ref.url %}
+        <a href="{{ ref.url }}" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i> <span class="label">Website</span></a>
+    {% endif %}
+    {% if ref.telegram %}
+        <a href="https://t.me/{{ ref.telegram }}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-telegram-plane" aria-hidden="true"></i> <span class="label">Chat on Telegram</span></a>
+    {% endif %}
+{% endfor %}
