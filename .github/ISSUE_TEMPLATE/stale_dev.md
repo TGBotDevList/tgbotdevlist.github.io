@@ -1,8 +1,8 @@
 ---
-name: Extend Advice Section
-about: Propose additional info for https://tgbotdevlist.github.io/advice/
+name: Stale Developer
+about: Report a developer who's GitHub profile no longer exists
 title: ""
-labels: 'documentation'
+labels: 'stale-dev'
 assignees: ''
 
 ---
@@ -10,13 +10,10 @@ assignees: ''
 <!--
 Thanks for reporting an issue!
 
-Please only use this template to propose additional info for https://tgbotdevlist.github.io/advice/
+Please only use this template to report a developer listed on TG Bot Dev List who's linked GitHub profile no longer
+exists.
 -->
 
-### Please consider adding the following advice:
+### I'd like to report the following developer:
 
-...
-
-### This is relevant, because
-
-...
+https://tgbotdevlist.github.io/link/to/developer
