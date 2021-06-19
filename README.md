@@ -1,1 +1,0 @@
-# tgbotdevlist.github.io
