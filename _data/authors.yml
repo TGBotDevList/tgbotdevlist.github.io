@@ -1,7 +1,7 @@
 john_does_gh_username:
   name        : "John Doe"
   bio         : "Short Bio."
-#  avatar      : "/assets/profile_pictures/john_does_gh_username.png"
+  avatar      : "/assets/profile_pictures/john_does_gh_username.png"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -15,9 +15,6 @@ john_does_gh_username:
     - label: "Some Other Social Link"
       icon: "fas fa-comment"
       url: "https://github.com/tgdevbotlist/tgdevbotlist.github.io"
-  bot_types:
-    - bot: true
-    - userbot: false
   languages:
     - name: "Python"
       icon: "fab fa-python"

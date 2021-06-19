@@ -102,6 +102,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://hirschheissi.ch"
+    - label: "Another Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://stagoverflow.de"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Bibo-Joshi"
@@ -111,9 +114,6 @@ author:
     - label: "StackExchange"
       icon: "fab fa-fw fa-stack-exchange"
       url: "https://stackexchange.com/users/14687358/callmestag"
-  bot_types:
-    - bot: true
-    - userbot: false
   languages:
     - name: "Python"
       icon: "fab fa-python"
@@ -272,25 +272,23 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
     values:
-#      layout: single
       author_profile: true
       header:
           overlay_image: /assets/logo/TGBotDevList_Header.png
+      toc: true
+      toc_sticky: true
   - scope:
       path: ""
       type: pages
     values:
-#      layout: single
       author_profile: false
   - scope:
-      path: "devs"
-      type: pages
+      path: ""
+      type: posts
     values:
       layout: dev
       author_profile: true
-      toc: true
-      toc_sticky: true
+      excerpt: ""

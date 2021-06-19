@@ -1,14 +1,14 @@
 ---
-layout: dev
 author: john_does_gh_username
 title: John Doe
 categories:
-    - userbot
+#    - userbot
+#    - bot
 tags:
-    - rust
-published: false
-
---- 
+#    - rust
+#    - python
+#    - some other language
+---
 
 # About Me
 
