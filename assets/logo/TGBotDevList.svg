@@ -17,9 +17,9 @@
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="TGBotDevList.svg"
-   inkscape:export-filename="C:\Users\Hinrich Mahler\Desktop\TGBotDevList.png"
-   inkscape:export-xdpi="246"
-   inkscape:export-ydpi="246">
+   inkscape:export-filename="C:\Users\Hinrich\PycharmProjects\tgbotdevlist.github.io\assets\logo\TGBotDevList_Small.png"
+   inkscape:export-xdpi="86.699997"
+   inkscape:export-ydpi="86.699997">
   <defs
      id="defs2">
     <linearGradient
@@ -63,16 +63,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.5257639"
-     inkscape:cx="283.46457"
+     inkscape:cx="107.48715"
      inkscape:cy="358.70993"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-text-baseline="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="847"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1800"
+     inkscape:window-height="1059"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -82,7 +82,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

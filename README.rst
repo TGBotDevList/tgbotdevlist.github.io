@@ -1,4 +1,4 @@
-.. image:: https://tgbotdevlist.github.io/assets/logo/TGBotDevList.png
+.. image:: https://tgbotdevlist.github.io/assets/logo/TGBotDevList_Small.png
    :align: center
    :target: https://tgbotdevlist.github.io
    :alt: TG Bot Dev List Logo
