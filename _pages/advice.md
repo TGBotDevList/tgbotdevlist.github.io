@@ -4,7 +4,7 @@ title: General Advice
 permalink: /advice/
 ---
 
-What follows it for from being legal advice. It's just some things that I personally consider common sense and that you should probably think of before wiring money to/starting to work for a stranger on the internet.
+What follows it far from being legal advice. It's just some things that I personally consider common sense and that you should probably think of before wiring money to/starting to work for a stranger on the internet.
 
 Are you missing something here? Please [tell me](https://github.com/TGBotDevList/tgbotdevlist.github.io/issues/new/choose).
 
