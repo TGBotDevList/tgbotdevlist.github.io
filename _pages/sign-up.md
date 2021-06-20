@@ -8,7 +8,7 @@ You're developing bots or userbots and want to be listed on this page! Sure thin
 
 Obviously that information will then be public and I can't control who reads it. If you don't want that, don't open a pull request.
 
-Let me walk you through the requirements for a sucessfull PR:
+Let me walk you through the requirements for a successful PR:
 
 # Add yourself to [`_data/authors.yml`](https://github.com/TGBotDevList/tgbotdevlist.github.io/blob/main/_data/authors.yml)
 
